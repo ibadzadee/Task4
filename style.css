@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:darkmagenta;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;  
+    gap: 30px;
+}
+li{
+    width: 250px;
+    height: 40px;
+    background-color:darkred ;
+    list-style: none;
+}
+
+
+/* top hissesi */
+section{
+    width: 100%;
+    height: 600px;
+    background-color:chocolate;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 100px;
+}
+.bigdiv{
+    width: 350px;
+    height: 350px;
+    background-color:darkcyan;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.smalldiv{
+    width: 220px;
+    height: 130px;
+    background-color:darkred;
+}
+
+
+/* middle hissesi */
+.container{
+    width: 100%;
+    height: 600px;
+    background-color:chartreuse ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.top{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.top div, .bottom div{
+    height: 150px;
+    width: 300px;
+    background-color:darkmagenta;
+}
+
+
+/* sonuncu hisse */
+.end{
+    width: 100%;
+    height: 600px;
+    background-color:darkseagreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.end .orta{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.left{
+    width: 500px;
+    height: 300px;
+    background-color: darkmagenta;
+}
+.right{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.right div{
+    width: 400px;
+    height: 300px;
+    background-color:saddlebrown;
+}
+
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 50px;
+    background-color:darkmagenta;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;  
+    gap: 30px; 
+}
+footer div{
+    width: 300px;
+    height: 35px;
+    background-color: darkcyan;
+}
+
+
+
+
+
+
